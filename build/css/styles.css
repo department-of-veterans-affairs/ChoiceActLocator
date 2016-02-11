@@ -1,0 +1,136 @@
+#mapDiv {
+    min-height: 50px; 
+  }
+  #search {
+    display: block;
+      padding: 10px;
+  }
+  #LocateButton {
+      position: absolute;
+      top: 85px;
+      left: 16px;
+      z-index: 50;
+    }
+    #BasemapToggle {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      z-index: 50;
+    }
+/* Title Pane font and buttons 
+.esriPopup .titlePane, .esriPopup.light .titlePane, .esriPopup.dark .titlePane {
+  height: 34px;
+  padding: 10px 0 0 10px;
+  background-color: green !important;
+  font-size: 14px;
+}*/
+
+  .providerItem p{
+      text-align: left;
+  }
+
+  .row-map {
+    background: white;
+  }
+
+  [class*="col-"] {
+    background-color: white;
+    /*border: 1px solid #E7E7E7;*/
+    text-align: center;
+  }
+
+  .bg-none{
+    background: none;
+    border: none;
+  }
+
+  .no-col-padding {
+    padding: 0;
+  }
+.input-group {
+        padding-bottom: 10px;
+}
+@media print{ 
+    .col-sm-4{
+        width:100%;
+    }
+    .container {
+        width: auto;
+    }
+    .esriViewPopup{
+        visibility: hidden;
+    }
+    .heading {
+        visibility: hidden;
+        height: 0;
+    }
+    #mapDiv_zoom_slider{
+        visibility: hidden;
+    }
+    #search {
+      visibility: hidden;
+      height: 0;
+    }
+    #searchListContainer{
+      height:100% !important;
+    }
+    #filter{
+      visibility: hidden;
+      height: 0;
+    }
+}
+
+
+  @media (max-width:767px) {
+    .container.main {
+      /*margin-top: 10px;*/
+      padding-bottom: 0;
+    }  
+    #myTabContent {
+      margin-left: 0;
+      margin-right: 0;
+    }   
+  }
+body {
+  padding-top: 0px;
+}
+
+.navbar-brand {
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+
+.navbar-brand-image {
+  height: 32px;
+  margin-left: 0px;
+  margin-right: 10px;
+  margin-top: 0px;
+}
+.starter-template {
+  padding: 0px 0px;
+  text-align: center;
+}
+.navbar-inverse .navbar-brand {
+	font-size: 16px;
+	color: #fff;
+}
+
+.container {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.jumbotron {
+	margin-top: 30px;
+	background: url('../images/map-gray.png') no-repeat left center;
+}
+
+/*h4 {
+  margin-top: 25px;
+}
+*/
+
+hr {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}

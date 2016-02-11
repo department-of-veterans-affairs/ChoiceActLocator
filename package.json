@@ -1,0 +1,12 @@
+{
+  "name": "VHA-AccessToHealthCare",
+  "version": "0.1.0",
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-concat-css": "^0.3.1",
+    "grunt-contrib-concat": "^0.5.0",
+    "grunt-contrib-copy": "^0.7.0",
+    "grunt-contrib-uglify": "^0.9.1",
+    "grunt-copy": "^0.1.0"
+  }
+}
